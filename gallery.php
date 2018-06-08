@@ -135,7 +135,7 @@
       </div>
     </div>
   </div>
-  <!-- /Portfolio Wrap -->
+  <!-- /Gallery Wrap -->
 </section>
 <div class="clearfix"></div>
 <!--END Content-->

@@ -33,18 +33,18 @@
                     <li><a href="">ITIL</a></li>
                     </ul>
                   </li>
-                  <li><a href="#">On-site Training</a></li>
-                  <li><a href="#">E-learning</a></li>
+                  <li><a href="<?php echo $myDomainUrl; ?>corporate-training">On-site Training</a></li>
+                  <li><a href="<?php echo $myDomainUrl; ?>online-training">E-learning</a></li>
                   <li><a href="#">Company</a>
                     <ul class="drop-down">
                         <li><a href="<?php echo $myDomainUrl; ?>about-us">About Us</a></li>
-                        <li><a href="">Services</a></li>
+                        <li><a href="<?php echo $myDomainUrl; ?>services">Services</a></li>
                         <li><a href="<?php echo $myDomainUrl; ?>gallery">Gallery</a></li>
-                        <li><a href="">Testimonial</a></li>
+                        <li><a href="<?php echo $myDomainUrl; ?>testimonial">Testimonial</a></li>
                     </ul>
                   </li>
-                  <li><a href="">Contact Us</a></li>
-                  <li><a href="">Login/Register</a></li>
+                  <li><a href="<?php echo $myDomainUrl; ?>contact-us">Contact Us</a></li>
+                  <li><a href="<?php echo $myDomainUrl; ?>login">Login/Register</a></li>
                 </ul>
               </div>
             </div>

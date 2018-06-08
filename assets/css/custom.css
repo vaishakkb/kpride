@@ -1,0 +1,235 @@
+/* ----------- Code By Vaishak------------ */
+/*START common style*/
+a:focus,
+a:hover,
+a.btn-blg:hover {
+  color: #e95659; }
+
+/*Bootstrap overright*/
+.btn-primary {
+  background-color: #e95659;
+  border-color: #ca3134;
+  border-radius: 0px; }
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:active:focus {
+    border-color: #e95659;
+    background-color: #ca3134;
+    outline: none; }
+
+/*START Navbar*/
+.logo {
+  padding: 0; }
+  .logo a {
+    color: #e95659; }
+  .logo img {
+    max-width: 100%;
+    width: 220px;
+    padding: 10px 0;
+    border-right: 1px solid #ddd; }
+
+.header-top-area {
+  border-bottom: 1px solid #ddd; }
+  .header-top-area .navbar-default .nav .drop-down li {
+    padding: 0;
+    border-left: 3px solid #5d5d5d; }
+    .header-top-area .navbar-default .nav .drop-down li:hover {
+      border-left-color: #e95659; }
+      .header-top-area .navbar-default .nav .drop-down li:hover a {
+        color: #e95659; }
+  .header-top-area .navbar-default .nav > .active a {
+    color: #e95659; }
+    .header-top-area .navbar-default .nav > .active a:active, .header-top-area .navbar-default .nav > .active a:focus, .header-top-area .navbar-default .nav > .active a:hover {
+      color: #e95659; }
+  .header-top-area .navbar-default .nav > li a:hover, .header-top-area .navbar-default .nav > li a:active, .header-top-area .navbar-default .nav > li a:focus {
+    color: #e95659; }
+
+@media (max-width: 767px) {
+  .header-top-area .slicknav_btn {
+    background-color: #e95659; }
+  .header-top-area .slicknav_menu .slicknav_icon {
+    margin: 0; } }
+/*END Navbar*/
+/*START Main Banner*/
+.section-title .mainHeadingDark {
+  margin: 0;
+  font-size: 3rem; }
+  .section-title .mainHeadingDark span {
+    color: #e95659; }
+  .section-title .mainHeadingDark:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100px;
+    background: #e95659;
+    margin: 10px auto 0; }
+
+.mainBanner {
+  background-image: url(../images/banner/13.jpg);
+  height: 500px;
+  background-size: cover;
+  position: relative; }
+  .mainBanner:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background: rgba(0, 0, 0, 0.4); }
+  .mainBanner .banCont {
+    padding-top: 120px;
+    position: relative;
+    z-index: 1; }
+    .mainBanner .banCont h3 {
+      color: #fff;
+      margin: 0;
+      padding-bottom: 30px;
+      font-size: 3rem; }
+    .mainBanner .banCont h1 {
+      color: #fff;
+      margin: 0;
+      font-size: 4.6rem; }
+
+.popularCourses .owl-carousel .item {
+  text-align: center;
+  margin: 10px 5px;
+  padding: 15px 10px;
+  -webkit-box-shadow: 0px 1px 3px #ddd;
+  -moz-box-shadow: 0px 1px 3px #ddd;
+  box-shadow: 0px 1px 3px #ddd; }
+  .popularCourses .owl-carousel .item img {
+    margin: 0 auto; }
+.popularCourses .owl-carousel .owl-controls .owl-pagination {
+  height: 0; }
+.popularCourses .owl-carousel .owl-controls .owl-buttons {
+  margin-top: 0; }
+  .popularCourses .owl-carousel .owl-controls .owl-buttons .owl-prev {
+    position: absolute;
+    left: -30px;
+    top: 0;
+    bottom: 10px;
+    height: 30px;
+    margin: auto 0;
+    width: 30px;
+    color: transparent; }
+    .popularCourses .owl-carousel .owl-controls .owl-buttons .owl-prev:after {
+      content: "\f053";
+      font-family: FontAwesome;
+      color: #fff;
+      position: absolute;
+      left: 9px;
+      top: 4px; }
+  .popularCourses .owl-carousel .owl-controls .owl-buttons .owl-next {
+    position: absolute;
+    right: -30px;
+    top: 0;
+    bottom: 10px;
+    height: 30px;
+    margin: auto 0;
+    width: 30px;
+    color: transparent; }
+    .popularCourses .owl-carousel .owl-controls .owl-buttons .owl-next:after {
+      content: "\f054";
+      font-family: FontAwesome;
+      color: #fff;
+      position: absolute;
+      right: 9px;
+      top: 4px; }
+
+.services {
+  background: #f9f9f9;
+  padding: 45px 0px 35px 0px; }
+
+/*START Course Page*/
+.scheduleSection {
+  padding-top: 0px; }
+  .scheduleSection .selectCountry {
+    padding: 15px 20px;
+    box-shadow: 0px 0px 3px 1px #ddd;
+    -webkit-box-shadow: 0px 0px 3px 1px #ddd;
+    margin-bottom: 25px;
+    background: #f9f9f9; }
+    .scheduleSection .selectCountry .form-control {
+      border-radius: 0; }
+
+/*START Portfolio Page*/
+.portfolio-filter li {
+  border: 2px solid #ca3134; }
+  .portfolio-filter li.active, .portfolio-filter li:hover {
+    background: #e95659;
+    border: 2px solid #ca3134; }
+
+/*START Common Page Designs*/
+.pageTitleBanner {
+  background-image: url(../images/banner/pageBanner.jpg);
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  position: relative; }
+  .pageTitleBanner:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background: rgba(0, 0, 0, 0.4); }
+  .pageTitleBanner .banCont {
+    padding-top: 30px;
+    position: relative;
+    z-index: 1; }
+    .pageTitleBanner .banCont h1 {
+      color: #fff;
+      text-align: center;
+      margin: 0;
+      font-size: 3.6rem;
+      text-transform: uppercase; }
+
+.counters .counter span {
+  color: #e95659;
+  font-size: 26px;
+  width: 62px;
+  line-height: 62px;
+  height: 62px;
+  border-radius: 50%;
+  border: 1px solid #e95659; }
+.counters .counter .number {
+  font-size: 30px;
+  padding: 18px; }
+
+/*END Common Page Designs*/
+/*START Footer*/
+.footer {
+  background-color: #444;
+  padding: 35px 0; }
+  .footer .section-title-2 h3 {
+    font-size: 18px;
+    color: #fff; }
+  .footer .sidebar-post li {
+    margin-bottom: 6px; }
+    .footer .sidebar-post li a {
+      color: #fff;
+      margin-top: 0px;
+      font-size: 13px; }
+      .footer .sidebar-post li a:hover, .footer .sidebar-post li a:focus {
+        color: #e95659; }
+  .footer .footer-address p {
+    color: #fff; }
+  .footer .footer-address .Color-b {
+    background: transparent; }
+  .footer .footer-social li a {
+    background: #fff;
+    color: #e95659; }
+  .footer .footer-social li:hover a {
+    background: #e95659;
+    color: #fff; }
+
+.footerBottom {
+  background: #222; }
+  .footerBottom p {
+    color: #a5a3a3; }
+
+/*END Footer*/
+
+/*# sourceMappingURL=custom.css.map */

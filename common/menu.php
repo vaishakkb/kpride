@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-3">
           <div class="logo"> 
-            <a href="<?php echo $myDomainUrl; ?>"><img src="<?php echo $myDomainUrl; ?>assets/images/logo.png" alt="Knowledgepride"></a> 
+            <!-- <a href="<?php echo $myDomainUrl; ?>"><img src="<?php echo $myDomainUrl; ?>assets/images/logo.png" alt="Knowledgepride"></a>  -->
           </div>
           <div class="mobile-nav"></div>
         </div>

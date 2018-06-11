@@ -7,11 +7,10 @@
         </div>
         <div class="sidebar-post pt-15">
           <ul>
-          <li> <a href="#">Classroom Training</a> </li>
-          <li> <a href="#">Online Training</a> </li>
-          <li> <a href="#">Corporate Training</a> </li>
-          <li> <a href="#">Webinar Sessions</a> </li>
-          <li> <a href="#">E-learning</a> </li>
+          <li> <a href="<?php echo $myDomainUrl; ?>classroom-training/project-management-professional-training">Classroom Training</a> </li>
+          <li> <a href="<?php echo $myDomainUrl; ?>online-training">Online Training</a> </li>
+          <li> <a href="<?php echo $myDomainUrl; ?>corporate-training">Corporate Training</a> </li>
+          <li> <a href="<?php echo $myDomainUrl; ?>webinar">Webinar Sessions</a> </li>
           </ul>
         </div>
       </div>
@@ -22,10 +21,10 @@
         <div class="sidebar-post pt-15">
           <ul>
           <li> <a href="<?php echo $myDomainUrl; ?>about-us">About Us</a> </li>
-          <li> <a href="#">Careers</a> </li>
-          <li> <a href="#">User Reviews</a> </li>
+          <!-- <li> <a href="#">Careers</a> </li> -->
+          <li> <a href="<?php echo $myDomainUrl; ?>testimonial">User Reviews</a> </li>
           <li> <a href="<?php echo $myDomainUrl; ?>gallery">Gallery</a> </li>
-          <li> <a href="#">Contact Us</a> </li>
+          <li> <a href="<?php echo $myDomainUrl; ?>contact-us">Contact Us</a> </li>
           </ul>
         </div>
       </div>
@@ -35,16 +34,16 @@
         </div>
         <div class="sidebar-post pt-15">
           <ul>
-          <li> <a href="#">Terms & Conditions</a> </li>
-          <li> <a href="#">FAQs</a> </li>
-          <li> <a href="#">Privacy Policy</a> </li>
-          <li> <a href="#">Refund Policy</a> </li>
+          <li> <a href="<?php echo $myDomainUrl; ?>terms-conditions">Terms & Conditions</a> </li>
+          <li> <a href="<?php echo $myDomainUrl; ?>faq">FAQs</a> </li>
+          <li> <a href="<?php echo $myDomainUrl; ?>privacy-policy">Privacy Policy</a> </li>
+          <li> <a href="<?php echo $myDomainUrl; ?>refund-policy">Refund Policy</a> </li>
           </ul>
         </div>
       </div>
       <div class="col-md-3">
         <div class="section-title-2">
-          <h3>Newsletter</h3>
+          <h3>Contact</h3>
         </div>
         <div class="footer-address">
           <p class="font-w-6">Knowledgepride</p>

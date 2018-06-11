@@ -49,11 +49,11 @@
           <div class="col-md-6">
             <h3 class="pb-20 font-w-8 font-30 pt-15">Core Principles</h3>
             <ul>
-            <li class="font-w-2 font-16 pb-5"><span class="color"><i class="fa fa-check pr-10"></i></span> We are customer Centric</li>
-            <li class="font-w-2 font-16 pb-5"><span class="color"><i class="fa fa-check pr-10"></i></span> We value your feedback - it helps us provide a better service</li>
-            <li class="font-w-2 font-16 pb-5"><span class="color"><i class="fa fa-check pr-10"></i></span> We only work with the highest caliber trainers to ensure that you get the best in the business</li>
-            <li class="font-w-2 font-16 pb-5"><span class="color"><i class="fa fa-check pr-10"></i></span> We leverage technology to enhance your learning experience</li>
-            <li class="font-w-2 font-16 pb-5"><span class="color"><i class="fa fa-check pr-10"></i></span> We handpick venues to ensure they're of the highest standard</li>
+            <li class="font-w-6 pb-5"><span class="color"><i class="fa fa-check pr-10"></i></span> We are customer Centric</li>
+            <li class="font-w-6 pb-5"><span class="color"><i class="fa fa-check pr-10"></i></span> We value your feedback - it helps us provide a better service</li>
+            <li class="font-w-6 pb-5"><span class="color"><i class="fa fa-check pr-10"></i></span> We only work with the highest caliber trainers to ensure that you get the best in the business</li>
+            <li class="font-w-6 pb-5"><span class="color"><i class="fa fa-check pr-10"></i></span> We leverage technology to enhance your learning experience</li>
+            <li class="font-w-6 pb-5"><span class="color"><i class="fa fa-check pr-10"></i></span> We handpick venues to ensure they're of the highest standard</li>
           </ul>
           </div>
         </div>

@@ -17,7 +17,7 @@
 <section class="pageTitleBanner">
   <div class="container">
     <div class="banCont">
-      <h1>Webinar</h1>
+      <h1>Webinar Sessions</h1>
     </div>
   </div>
 </section>
